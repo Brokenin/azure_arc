@@ -3,12 +3,12 @@
 # <--- Change the following environment variables according to your Azure service principal name --->
 
 echo "Exporting environment variables"
-export subscriptionId='9c12f367-e8d2-4770-a3a2-6d2a77a53d08'
-export appId='fcf40186-6615-4ddc-87a6-bdf113abc420'
-export password='RgaC_5ZlKRPRQvpyhUv_4cuSAMd8Bw9YJc'
-export tenantId='7c8a0cba-49a7-462c-aa5e-e50faee4beee'
-export resourceGroup='Azure-Arc'
-export location='southeastasia'
+export subscriptionId='<Your Azure subscription ID>'
+export appId='<Your Azure service principal name>'
+export password='<Your Azure service principal password>'
+export tenantId='<Your Azure tenant ID>'
+export resourceGroup='<Azure resource group name>'
+export location='<Azure Region>'
 
 # Determine Package Manager
 
